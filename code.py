@@ -43,7 +43,7 @@ def slope_field(dydx, xlim=(-5,5), ylim= (-5,5), num_arrows=20):
     #plots the slope Line. (Usually it is an arrow, but I made it so its a line.) 
     plt.quiver(X, Y, slopeSize, deriValues, angles= 'xy', headaxislength=0, headlength=0, headwidth=0)
 
-# example differential equation
+# example differential equation. Any equation can be entered and its respective slope field will be produced. 
 def dydx(x, y):
     return np.cos(x)-np.sin(y)
 
