@@ -1,6 +1,6 @@
 # README For MathScape #
 
-Created as a part of my final project for AP Computer Science Applications. Generates a slope field when given a differential equation. 
+This Python script generates a slope field when given a differential equation. 
 
 -Used Python and advanced mathematical algorithms to create MathScape, a slope field generator 
 
